@@ -6,7 +6,7 @@ public class DomainPageTest {
 	@Test
 	public void setup()
 	{
-		System.out.println("harpreet");
+		System.out.println("Arjoi");
 	}
 	
 
