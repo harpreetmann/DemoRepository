@@ -11,4 +11,9 @@ public class HomePageTest extends TestBase {
 	System.out.println("home page test");
 
 }
+	@Test
+	public void sum()
+	{
+		System.out.println("Sum of numbers");
+	}
 }
