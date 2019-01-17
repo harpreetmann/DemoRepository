@@ -23,7 +23,7 @@ public class TestBase {
 	{
 		try {
 	  prop = new Properties();
-	 FileInputStream ip = new FileInputStream("C:/Users/HMann/eclipse-workspace/FreeCRMTest/src/main/java/com/qa/config/config.properties");
+	 FileInputStream ip = new FileInputStream("C:\\Users\\HMann\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\qa\\config\\config.properties");
 	 prop.load(ip);
 	}catch (IOException e) {
 		// TODO Auto-generated catch block
@@ -42,7 +42,7 @@ public static void intialization()
 	driver.manage().deleteAllCookies();
 	driver.manage().timeouts().pageLoadTimeout(TestUtil.page_load_timeout,TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(TestUtil.implicit_wait, TimeUnit.SECONDS);
-	prop.getProperty("URL");
+	driver.get(prop.getProperty("url"));
 
 }
 

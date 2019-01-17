@@ -10,11 +10,13 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath="//*[@class='panel-body']/strong")
 	WebElement nameLabel;
-	@FindBy(xpath="//a[Contains(text(),'Domains')]")
+	@FindBy(xpath="//*[@id='Primary_Navbar-Domains']/a")
 	WebElement domainName;
+	@FindBy(xpath=".//*[@id='Primary_Navbar-Domains-My_Domains']/a")
+	WebElement mydomainlink;
 	@FindBy(xpath="//a[Contains(text(),'Services')]")
 	WebElement serviceName;
-	
+	//initializing the page object
 	public HomePage()
 	{
 		PageFactory.initElements(driver, this);
@@ -32,6 +34,11 @@ public class HomePage extends TestBase {
 	{
 		domainName.click();
 		return new ServicePage();
+	}
+	public DomainPage clickOnMyDomainLink()
+	{
+		mydomainlink.click();
+		return new DomainPage();
 	}
 	
 }

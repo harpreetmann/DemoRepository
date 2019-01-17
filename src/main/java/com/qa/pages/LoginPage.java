@@ -46,7 +46,7 @@ public class LoginPage extends TestBase {
 		return logoimg.isDisplayed();
 	}
 	
-	public HomePage Login(String un,String pwd)
+	public HomePage login(String un,String pwd)
 	{
 		username.sendKeys(un);
 		password.sendKeys(pwd);
