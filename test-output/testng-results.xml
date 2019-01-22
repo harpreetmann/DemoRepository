@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20493" started-at="2019-01-16T22:16:31Z" finished-at="2019-01-16T22:16:51Z">
+  <suite name="Default suite" duration-ms="31819" started-at="2019-01-18T00:20:36Z" finished-at="2019-01-18T00:21:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20493" started-at="2019-01-16T22:16:31Z" finished-at="2019-01-16T22:16:51Z">
+    <test name="Default test" duration-ms="31819" started-at="2019-01-18T00:20:36Z" finished-at="2019-01-18T00:21:07Z">
       <class name="com.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="setup" is-config="true" duration-ms="9664" started-at="2019-01-16T17:16:31Z" finished-at="2019-01-16T17:16:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="setup" is-config="true" duration-ms="9560" started-at="2019-01-17T19:20:36Z" finished-at="2019-01-17T19:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="verifyHomePageTitleTest" duration-ms="19" started-at="2019-01-16T17:16:41Z" finished-at="2019-01-16T17:16:41Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="verifyHomePageTitleTest" duration-ms="19" started-at="2019-01-17T19:20:45Z" finished-at="2019-01-17T19:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="teardown" is-config="true" duration-ms="939" started-at="2019-01-16T17:16:41Z" finished-at="2019-01-16T17:16:41Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="teardown" is-config="true" duration-ms="1131" started-at="2019-01-17T19:20:45Z" finished-at="2019-01-17T19:20:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="setup" is-config="true" duration-ms="7864" started-at="2019-01-16T17:16:41Z" finished-at="2019-01-16T17:16:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="setup" is-config="true" duration-ms="8472" started-at="2019-01-17T19:20:46Z" finished-at="2019-01-17T19:20:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnDomainlink()[pri:2, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="clickOnDomainlink" duration-ms="1107" started-at="2019-01-16T17:16:49Z" finished-at="2019-01-16T17:16:50Z">
+        <test-method status="PASS" signature="clickOnDomainlink()[pri:2, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="clickOnDomainlink" duration-ms="2129" started-at="2019-01-17T19:20:55Z" finished-at="2019-01-17T19:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnDomainlink -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="teardown" is-config="true" duration-ms="879" started-at="2019-01-16T17:16:50Z" finished-at="2019-01-16T17:16:51Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="teardown" is-config="true" duration-ms="1066" started-at="2019-01-17T19:20:57Z" finished-at="2019-01-17T19:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="setup" is-config="true" duration-ms="8367" started-at="2019-01-17T19:20:58Z" finished-at="2019-01-17T19:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="userNameLabelTest()[pri:3, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="userNameLabelTest" duration-ms="63" started-at="2019-01-17T19:21:06Z" finished-at="2019-01-17T19:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNameLabelTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.HomePageTest@6eebc39e]" name="teardown" is-config="true" duration-ms="992" started-at="2019-01-17T19:21:06Z" finished-at="2019-01-17T19:21:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

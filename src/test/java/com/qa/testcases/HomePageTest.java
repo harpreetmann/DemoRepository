@@ -45,6 +45,12 @@ public class HomePageTest extends TestBase {
 		homepage.clickOnDomainsLink();
 		domainpage=homepage.clickOnMyDomainLink();
 	}
+	@Test (priority=3)
+	public void userNameLabelTest()
+	{
+		Assert.assertTrue(homepage.UserNameLabel());
+		
+	}
 	@AfterMethod
 	public void teardown()
 	{

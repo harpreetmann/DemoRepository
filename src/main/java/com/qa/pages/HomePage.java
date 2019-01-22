@@ -16,6 +16,8 @@ public class HomePage extends TestBase {
 	WebElement mydomainlink;
 	@FindBy(xpath="//a[Contains(text(),'Services')]")
 	WebElement serviceName;
+	@FindBy(xpath="//div[@class='panel-body']/strong")
+	WebElement namelabel;
 	//initializing the page object
 	public HomePage()
 	{
@@ -40,5 +42,8 @@ public class HomePage extends TestBase {
 		mydomainlink.click();
 		return new DomainPage();
 	}
-	
+	public boolean UserNameLabel()
+	{
+		return namelabel.isDisplayed();
+	}
 }
