@@ -18,6 +18,9 @@ public class HomePage extends TestBase {
 	WebElement serviceName;
 	@FindBy(xpath="//div[@class='panel-body']/strong")
 	WebElement namelabel;
+	@FindBy(xpath="//li[@id='Primary_Navbar-Open_Ticket']")
+	WebElement openTicketLink;
+	
 	//initializing the page object
 	public HomePage()
 	{
@@ -46,4 +49,11 @@ public class HomePage extends TestBase {
 	{
 		return namelabel.isDisplayed();
 	}
+	public OpenTicketPage clickOnOpenTicketLink()
+	{
+		openTicketLink.click();
+		 return new OpenTicketPage();
+	}
+	
+
 }

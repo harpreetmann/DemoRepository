@@ -21,7 +21,7 @@ public class HomePageTest extends TestBase {
 	
 	public HomePageTest()
 	{
-		super();  //it will call the basecalass constructor and intiali
+		super();  //it will call the basecalass constructor and intializi
 	}
 	
 	@BeforeMethod
@@ -40,7 +40,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(title, "Client Area - PHPTRAVELS");
 	}
 	@Test(priority=2)
-	public void clickOnDomainlink()
+	public void clickOnDomainlinkTest()
 	{
 		homepage.clickOnDomainsLink();
 		domainpage=homepage.clickOnMyDomainLink();
@@ -51,6 +51,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(homepage.UserNameLabel());
 		
 	}
+	
 	@AfterMethod
 	public void teardown()
 	{
