@@ -57,15 +57,12 @@ public void dynamicContestButtonIsEnabled()
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	driver.get("https://the-internet.herokuapp.com/");
 	driver.findElement(By.xpath("//*[@id='content']/ul/li[13]/a")).click();
+	//locate button
 	driver.findElement(By.xpath("//*[@id='input-example']/button")).click();
-	// locate checkbox
-	
-	// assert that checkbox is selected
-	//Assert.assertTrue(checkbox.isSelected(), "Checkbox is not selected!");
-	driver.findElement(By.xpath("//*[@id='checkbox-example']/button")).click();
-	WebElement confirmationMessageElement = driver.findElement(By.xpath("//*[@id='checkbox-example']/button"));
+	WebElement confirmationMessageElement = driver.findElement(By.xpath("//*[@id='input-example']/button"));
 	String message = confirmationMessageElement.getText();
-	Assert.assertEquals(message,"Remove");
+	Assert.assertEquals(message,"Enable");
+	driver.quit();
 	
 }
 }

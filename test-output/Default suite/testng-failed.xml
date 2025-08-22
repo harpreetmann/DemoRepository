@@ -5,7 +5,7 @@
     <classes>
       <class name="com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="dynamicContestButtonIsEnabled"/>
         </methods>
       </class> <!-- com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest -->
     </classes>
