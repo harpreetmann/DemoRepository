@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest">
+      <class name="dropdownselect.DropDownValues">
         <methods>
-          <include name="dynamicContestButtonIsEnabled"/>
+          <include name="testmyDD"/>
         </methods>
-      </class> <!-- com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest -->
+      </class> <!-- dropdownselect.DropDownValues -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
