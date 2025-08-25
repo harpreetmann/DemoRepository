@@ -1,6 +1,7 @@
 package com.tcsproject.SeleniumAutomation;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -64,5 +65,27 @@ public void dynamicContestButtonIsEnabled()
 	Assert.assertEquals(message,"Enable");
 	driver.quit();
 	
+}
+@Test
+public void printElementWithDom()
+{
+	WebDriver driver = new ChromeDriver();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+	driver.get("https://the-internet.herokuapp.com/");
+	List<WebElement> list = driver.findElements(By.xpath("//div[@id='content']/ul/li"));
+	for (WebElement item : list) {
+		if(item.getText().endsWith("DOM"))
+		{
+	    System.out.println(item.getText());
+		}
+	}
+
+
+
+
+
+
+
+
 }
 }

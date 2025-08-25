@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dropdownselect.DropDownValues">
+      <class name="com.tcsproject.SeleniumAutomation.LocatorsAssignment">
         <methods>
-          <include name="testmyDD"/>
+          <include name="testPliers"/>
         </methods>
-      </class> <!-- dropdownselect.DropDownValues -->
+      </class> <!-- com.tcsproject.SeleniumAutomation.LocatorsAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

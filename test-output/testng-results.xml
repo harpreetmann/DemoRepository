@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-23T17:09:01 EDT" name="Default suite" finished-at="2025-08-23T17:09:04 EDT" duration-ms="3198">
+  <suite started-at="2025-08-25T10:46:15 EDT" name="Default suite" finished-at="2025-08-25T10:46:19 EDT" duration-ms="4054">
     <groups>
     </groups>
-    <test started-at="2025-08-23T17:09:01 EDT" name="Default test" finished-at="2025-08-23T17:09:04 EDT" duration-ms="3198">
-      <class name="dropdownselect.dropdownmultivalues$DropDownValues">
-        <test-method signature="testmyDD()[pri:0, instance:dropdownselect.dropdownmultivalues$DropDownValues@7db12bb6]" started-at="2025-08-23T17:09:01 EDT" name="testmyDD" finished-at="2025-08-23T17:09:04 EDT" duration-ms="3111" status="PASS">
+    <test started-at="2025-08-25T10:46:15 EDT" name="Default test" finished-at="2025-08-25T10:46:19 EDT" duration-ms="4054">
+      <class name="com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest">
+        <test-method signature="printElementWithDom()[pri:0, instance:com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest@3f6f6701]" started-at="2025-08-25T10:46:15 EDT" name="printElementWithDom" finished-at="2025-08-25T10:46:19 EDT" duration-ms="4005" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testmyDD -->
-      </class> <!-- dropdownselect.dropdownmultivalues$DropDownValues -->
+        </test-method> <!-- printElementWithDom -->
+      </class> <!-- com.tcsproject.SeleniumAutomation.MyFirstSeleniumTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
